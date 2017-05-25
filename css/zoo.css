@@ -1,0 +1,70 @@
+{
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+body {
+  font-family: 'IM Fell DW Pica', sans-serif;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #737;
+}
+a + a::before {
+  content: " | ";
+}
+.wpbanner {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.9rem;
+  display: inline-block;
+  padding: 1em 3em .5em 3em;
+}
+
+#mainmap{
+  width: 69em;
+  z-index: 1;
+  position: relative;
+}
+#temperatemain{
+  z-index: 3;
+  width: 29em;
+  position: absolute;
+  top: 70em;
+  left: 74px;
+}
+#temperate{
+  z-index: 1;
+  width: 70em;
+  position: relative;
+
+}
+#redpanda {
+  z-index: 4;
+  width: 12em;
+  position: absolute;
+  /*background-image: "redpanda.svg";*/
+  top: 269px;
+  left: 33px;
+}
+#flamingos {
+  z-index: 4;
+  width: 149px;
+  position: absolute;
+  /*background-image: "redpanda.svg";*/
+  top: 134px;
+  left: 88px;
+}
