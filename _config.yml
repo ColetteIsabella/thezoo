@@ -20,5 +20,13 @@ markdown: kramdown
 navigation:
   - text: temperate
     url: temperate/
-    -text: redpanda
-    url: redpanda
+  - text: Red Panda
+    url: redpanda/
+  - text: northern
+    url: northern/
+  - text: Jersey Steer
+    url: jerseysteer/
+  - text: Crane
+    url: crane/
+  - text: Flamingos
+    url: flamingos/

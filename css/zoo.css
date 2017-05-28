@@ -19,12 +19,41 @@ body {
   font-family: 'IM Fell DW Pica', sans-serif;
   color: #000;
 }
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.7rem;
+  width: 100%;
+}
+p {
+  text-align: center;
+  font-size: 1.8rem;
+}
 a {
   text-decoration: none;
   color: #737;
 }
 a + a::before {
   content: " | ";
+}
+#navigation{
+  display: inline;
+  width: 90%;
+  height: 3em;
+}
+.back{
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 30%;
+}
+.home{
+  float: right;
+  padding: 0;
+  margin: 0;
+  width: 15%;
 }
 .wpbanner {
   text-decoration: none;
@@ -35,18 +64,28 @@ a + a::before {
 }
 
 #mainmap{
-  width: 69em;
+  width: 75em;
   z-index: 1;
   position: relative;
+  padding: 1em 2em 0 2em;
 }
 #temperatemain{
   z-index: 3;
-  width: 29em;
+  width: 319px;
   position: absolute;
-  top: 70em;
-  left: 74px;
+  top: 764px;
+  left: 99px;
 }
-#temperate{
+#northernmain{
+  z-index: 3;
+  width: 432px;
+  position: absolute;
+  top: 148px;
+  left: 329px;
+}
+
+/*-------temperate-------*/
+#temperate, #northern{
   z-index: 1;
   width: 70em;
   position: relative;
@@ -57,14 +96,45 @@ a + a::before {
   width: 12em;
   position: absolute;
   /*background-image: "redpanda.svg";*/
-  top: 269px;
+  top: 273px;
   left: 33px;
 }
+
 #flamingos {
   z-index: 4;
   width: 149px;
   position: absolute;
-  /*background-image: "redpanda.svg";*/
-  top: 134px;
+  top: 138px;
   left: 88px;
+}
+#crane {
+  z-index: 4;
+  width: 110px;
+  position: absolute;
+  top: 459px;
+  left: 66px;
+}
+#steer {
+  z-index: 4;
+  width: 151px;
+  position: absolute;
+  top: 441px;
+  left: 355px;
+}
+
+/*-------northern-------*/
+#riverotter {
+  z-index: 4;
+  width: 77px;
+  position: absolute;
+  top: 195px;
+  left: 183px;
+}
+/*-----Red Panda-----*/
+#redpandapg {
+  z-index: 4;
+  width: 30em;
+  padding: 2em 20em 0 20em;
+  /*background-image: "redpanda.svg";*/
+
 }
