@@ -35,7 +35,7 @@ a {
   text-decoration: none;
   color: #737;
 }
-a + a::before {
+.wpbanner a + a::before {
   content: " | ";
 }
 #navigation{
@@ -55,33 +55,137 @@ a + a::before {
   margin: 0;
   width: 15%;
 }
-.wpbanner {
-  text-decoration: none;
-  text-align: center;
-  font-size: 1.9rem;
-  display: inline-block;
-  padding: 1em 3em .5em 3em;
-}
 
-#mainmap{
-  width: 75em;
-  z-index: 1;
-  position: relative;
-  padding: 1em 2em 0 2em;
-}
-#temperatemain{
-  z-index: 3;
-  width: 319px;
-  position: absolute;
-  top: 764px;
-  left: 99px;
-}
-#northernmain{
-  z-index: 3;
-  width: 432px;
-  position: absolute;
-  top: 148px;
-  left: 329px;
+  .wpbanner {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 1em 3em .5em 3em;
+  }
+
+  #mainmap{
+    width: 68em;
+    z-index: 1;
+    position: relative;
+    padding: 1em 0 0 0;
+  }
+
+  #northernmain{
+    z-index: 3;
+    width: 387px;
+    position: absolute;
+    top: 145px;
+    left: 283px;
+  }
+  #australasiamain{
+    z-index: 3;
+    width: 186px;
+    position: absolute;
+    top: 310px;
+    left: 273px;
+  }
+  #tropicalasiamain{
+    z-index: 3;
+    width: 228px;
+    position: absolute;
+    top: 366px;
+    left: 450px;
+  }
+  #banyanmain{
+    z-index: 3;
+    width: 217px;
+    position: absolute;
+    top: 481px;
+    left: 291px;
+  }
+  #rainforestmain{
+    z-index: 3;
+    width: 188px;
+    position: absolute;
+    top: 587px;
+    left: 161px;
+  }
+  #africanmain{
+    z-index: 3;
+    width: 224px;
+    position: absolute;
+    top: 569px;
+    left: 325px;
+  }
+  #temperatemain{
+    z-index: 3;
+    width: 290px;
+    position: absolute;
+    top: 702px;
+    left: 71px;
+  }
+
+@media only screen and (max-width: 590px) {
+  .wpbanner {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 1em 10% .5em 10%;
+  }
+
+  #mainmap{
+    width: 50em;
+    z-index: 1;
+    position: relative;
+    padding: 1em 0 0 0;
+  }
+
+  #northernmain{
+    z-index: 3;
+    width: 285px;
+    position: absolute;
+    top: 100px;
+    left: 210px;
+  }
+  #australasiamain{
+    z-index: 3;
+    width: 137px;
+    position: absolute;
+    top: 222px;
+    left: 202px;
+  }
+  #tropicalasiamain{
+    z-index: 3;
+    width: 167px;
+    position: absolute;
+    top: 262px;
+    left: 333px;
+  }
+  #banyanmain{
+    z-index: 3;
+    width: 158px;
+    position: absolute;
+    top: 347px;
+    left: 218px;
+  }
+  #rainforestmain{
+    z-index: 3;
+    width: 139px;
+    position: absolute;
+    top: 425px;
+    left: 121px;
+  }
+  #africanmain{
+    z-index: 3;
+    width:160px;
+    position: absolute;
+    top: 412px;
+    left: 242px;
+  }
+  #temperatemain{
+    z-index: 3;
+    width: 215px;
+    position: absolute;
+    top: 510px;
+    left: 54px;
+  }
 }
 
 /*-------temperate-------*/
@@ -120,6 +224,9 @@ a + a::before {
   position: absolute;
   top: 441px;
   left: 355px;
+}
+@media only screen and (max-width: 800px) {
+
 }
 
 /*-------northern-------*/
